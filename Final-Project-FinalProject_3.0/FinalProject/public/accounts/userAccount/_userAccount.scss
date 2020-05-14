@@ -1,0 +1,27 @@
+@import '../library/library.scss';
+
+*.userAccount {
+    text-align: center;
+}
+
+div.shifts {
+    top: 10px;
+    float: right;
+    width: calc(100% - 388px);
+    padding: 10px;
+    position: relative;
+    border: $border;
+    border-radius: 15px;
+    background-color: darken(#fff, 15%);
+    right: 1vh;
+    min-height: calc(100% - 215px);
+}
+
+div.shifts h1 {
+    text-align: center;
+}
+
+div.shifts h2 {
+    text-align: left;
+    margin-left: 1vh;
+}

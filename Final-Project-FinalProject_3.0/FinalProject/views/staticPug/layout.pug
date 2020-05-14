@@ -1,0 +1,46 @@
+doctype html
+head
+  title homepage
+  link(href='/final/final.css' type='text/css' rel='stylesheet')
+
+  nav
+  .topbar
+      a.topbarReg(href='/') Home
+      a.topbarReg(href='/#who') Who we are
+      a.topbarReg(href='/#how') How it works
+      a.topbarReg(href='/#questions')  Questions
+      .login
+        a.loginButton Log in
+        .loginDrop
+          .cmpButton Company
+            .cmpDrop
+              form(action="../company" method="post" enctype="")
+                label company:  
+                input(type="text" name="companyName" placeholder="company name")
+                br
+                label password: 
+                input(type="password" name="password" placeholder="password")
+                br
+                input(type="submit" name="submit")
+          .userButton User
+            .userDrop
+              form(action="../user" method="post" enctype="")
+                label username: 
+                input(type="text" name="username" placeholder="username")
+                br
+                label password: 
+                input(type="password" name="password" placeholder="password")
+                br
+                input(type="submit" name="submit")
+
+      .signUp
+        a.signUpButton Sign up
+        .signUpDrop
+          a(href='/company/createAccount') company
+          a(href='/user/createAccount') user
+
+  block content
+
+  footer
+    p copyright stuff
+    p bla bla bla  

@@ -1,0 +1,200 @@
+.right {
+  float: right; }
+
+div.openShifts, div.filledShifts {
+  position: relative;
+  border: 1px solid black;
+  border-radius: 15px;
+  width: calc(50% - 209px);
+  right: 1vh;
+  padding: 10px;
+  top: 2vh;
+  float: right;
+  background-color: #d9d9d9;
+  min-height: calc(100% - 215px); }
+
+div.filledShifts {
+  margin-left: 1vh; }
+
+div.filledShifts div {
+  background-color: #a6a6a6;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-bottom: 10px; }
+
+div.filledShifts div:hover {
+  cursor: pointer; }
+
+div.openShifts div {
+  background-color: #a6a6a6;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-bottom: 10px; }
+
+div.openShifts div:hover {
+  cursor: pointer; }
+
+.right {
+  float: right; }
+
+*.userAccount {
+  text-align: center; }
+
+div.shifts {
+  top: 10px;
+  float: right;
+  width: calc(100% - 388px);
+  padding: 10px;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: #d9d9d9;
+  right: 1vh;
+  min-height: calc(100% - 215px); }
+
+div.shifts h1 {
+  text-align: center; }
+
+div.shifts h2 {
+  text-align: left;
+  margin-left: 1vh; }
+
+.right {
+  float: right; }
+
+.webpage {
+  border-top: 1px solid black;
+  /*To take away margin at top*/ }
+
+.topbar {
+  border-bottom: 1px solid black;
+  background-color: #2b7db4;
+  text-align: center;
+  padding: 10px 5px;
+  width: 100%;
+  float: right;
+  position: fixed;
+  height: 33px;
+  z-index: 2; }
+
+.topbar a {
+  color: #fff;
+  text-decoration: none; }
+
+.topbarReg {
+  padding: 2px 20px;
+  border-right: #2bb9ff; }
+
+.signUpButton, .loginButton {
+  float: right;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 2px 5px;
+  margin: 4px 5px; }
+
+.signUp {
+  float: right; }
+
+.signUpButton {
+  background-color: red;
+  cursor: pointer; }
+
+.signUpDrop {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  padding: 5px 8px;
+  margin-top: 30px;
+  box-shadow: 0 8px 16px 0;
+  z-index: 1;
+  cursor: pointer; }
+
+.signUpDrop a {
+  text-decoration: none;
+  color: #000;
+  padding: 12px 16px;
+  display: block; }
+
+.signUpDrop a:hover {
+  background-color: #ddd; }
+
+.signUp:hover .signUpDrop {
+  display: block; }
+
+.signUp:hover .signUpButton {
+  background-color: pink; }
+
+.login {
+  float: right; }
+
+.loginButton {
+  background-color: orange;
+  margin-right: 10px; }
+
+.login:hover .loginButton {
+  background-color: #ffe4b3; }
+
+.right {
+  float: right; }
+
+div.shifts div {
+  background-color: #a6a6a6;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-bottom: 10px; }
+
+div.shifts div:hover {
+  cursor: pointer; }
+
+html {
+  height: 100%; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  height: 100%; }
+
+div.webpage {
+  height: 100%; }
+
+div.Welcome {
+  background-color: #2bb9ff;
+  border: 1px solid black;
+  position: relative;
+  margin-top: 62px;
+  margin-left: 360px;
+  right: 1vh;
+  width: calc(100% - 388px);
+  float: right;
+  padding: 10px; }
+
+div.Sidebar {
+  background-color: #f1f1f1;
+  border-right: 1px solid black;
+  position: fixed;
+  height: 100%;
+  bottom: 0;
+  width: 325px;
+  float: left;
+  padding: 10px;
+  top: 54px; }
+
+div.Sidebar div {
+  margin: 5px; }
+
+div.Sidebar div a {
+  border: 1px solid black;
+  padding: 15px 17.5px;
+  display: inline-block;
+  width: 277px;
+  background-color: #fff; }
+
+div.Sidebar div a:hover {
+  background-color: #d9d9d9;
+  cursor: pointer; }
+
+div.Sidebar div a:first-child {
+  border-radius: 5px 5px 0 0; }
+
+div.Sidebar div a:last-child {
+  border-radius: 0 0 5px 5px; }
